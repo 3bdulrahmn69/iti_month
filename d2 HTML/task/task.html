@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 2</title>
+</head>
+
+<body>
+  <h1>TASK1</h1>
+  <div style="border: 1px solid black;">
+    <div style="border: 1px solid black;">
+      <h2>Order lists Examples</h2>
+      <h3>Web development main content</h3>
+      <ol>
+        <li>Front-End</li>
+        <li>Back-End</li>
+      </ol>
+      <h3>Web development main content</h3>
+      <ol style="list-style: lower-alpha;">
+        <li>Front-End</li>
+        <li>Back-End</li>
+      </ol>
+      <h3>Web development main content</h3>
+      <ol style="list-style: lower-latin;">
+        <li>Front-End</li>
+        <li>Back-End</li>
+      </ol>
+      <h3>Web development main content</h3>
+      <ol style="list-style: upper-alpha">
+        <li>Front-End</li>
+        <li>Back-End</li>
+      </ol>
+    </div>
+
+    <br>
+    <br>
+
+    <div style="border: 1px solid black;">
+      <h2>Unordered lists Examples</h2>
+      <ul style="list-style-type: circle;">
+        <li>Back-End development</li>
+        <li>Front-End</li>
+        <li>Back-End</li>
+      </ul>
+      <h2>Web development main content</h2>
+      <ul>
+        <li>Front-End</li>
+        <li>Back-End</li>
+      </ul>
+      <ul style="list-style-type: square;">
+        <li>Front-End</li>
+        <li>Back-End</li>
+      </ul>
+    </div>
+
+    <br>
+    <br>
+
+    <div style="border: 1px solid black;">
+      <h2>Mixed list Examples</h2>
+      <h3>
+        Web development main content
+      </h3>
+      <ol>
+        <li>Front-End</li>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+        <li>Back-End</li>
+        <ul>
+          <li>Database</li>
+          <li>JavaScript</li>
+        </ul>
+      </ol>
+    </div>
+  </div>
+
+  <br>
+  <br>
+
+  <h1>TASK2</h1>
+  <div>
+    <table style="border: 1px solid red; border-collapse: collapse;">
+      <tr>
+        <th colspan="5" style="border: 1px solid red;">Student Data</th>
+      </tr>
+      <tr>
+        <td rowspan="4" style="border: 1px solid red;">Student Data</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid red;">name</td>
+        <td style="border: 1px solid red;">age</td>
+        <td colspan="2" style="border: 1px solid red;">Contact Data</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid red;">John</td>
+        <td style="border: 1px solid red;">Doe</td>
+        <td style="border: 1px solid red;">80</td>
+        <td style="border: 1px solid red;">email@email.com</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid red;">John</td>
+        <td style="border: 1px solid red;">Doe</td>
+        <td style="border: 1px solid red;">80</td>
+        <td style="border: 1px solid red;">email@email.com</td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid red;">John</td>
+        <td style="border: 1px solid red;">Doe</td>
+        <td style="border: 1px solid red;">80</td>
+        <td style="border: 1px solid red;">email@email.com</td>
+      </tr>
+    </table>
+  </div>
+
+  <br>
+  <br>
+
+  <h1>TASK3</h1>
+  <form>
+    <fieldset>
+      <legend>Personalia:</legend>
+
+      <label for="firstName">First Name:
+        <input type="text" id="firstName" name="firstName" placeholder="Enter your first name" required>
+      </label><br><br>
+
+      <label for="lastName">Last Name:
+        <input type="text" id="lastName" name="lastName" placeholder="Enter your last name" disabled>
+      </label><br><br>
+
+      <label for="age">Age:
+        <input type="text" id="age" name="age" max="99" maxlength="2" placeholder="Enter your age">
+      </label><br><br>
+
+      <label for="password">Password:
+        <input type="password" id="password" name="password">
+      </label><br><br>
+
+      <label>Gender:</label>
+      <label for="male"><input type="radio" id="male" name="gender" value="Male">Male</label>
+      <label for="female"><input type="radio" id="female" name="gender" value="Female">Female</label><br><br>
+    </fieldset>
+
+    <br><br>
+
+    <fieldset>
+      <legend>Technical Information</legend>
+      <label>Choose your track:</label><br>
+      <label for="frontend">
+        <input type="checkbox" id="frontend" name="track" value="Front-end">
+        Front-end
+      </label><br>
+      <label for="backend"><input type="checkbox" id="backend" name="track" value="Back-end">
+        Back-end
+      </label><br><br>
+
+      <label for="favourite">Choose your favourite!</label>
+      <select id="favourite" name="favourite">
+        <option value="HTML">HTML</option>
+        <option value="CSS">CSS</option>
+        <option value="JavaScript">JavaScript</option>
+      </select><br><br>
+
+      <textarea name="comments" rows="5" cols="30">Testt</textarea><br><br>
+
+      <label for="file">Choose File:
+        <input type="file" id="file" name="file"><br><br>
+      </label>
+    </fieldset>
+    <br><br>
+    <input type="submit" value="Submit">
+    <input type="button" value="Cancel">
+  </form>
+</body>
+
+</html>

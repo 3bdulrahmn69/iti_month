@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+body div {
+  width: fit-content;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 16px;
+  border: 1px solid black;
+}
+
+#one {
+  background-color: #f2decc;
+}
+
+#two {
+  background-color: #f2dedf;
+}
+
+#three {
+  background-color: #f2cce0;
+}
+
+#four {
+  background-color: #dfdee0;
+}
+
+div > div {
+  border: none;
+  font-size: 21px;
+}
+
+div h2 {
+  margin-bottom: 1rem;
+}
+
+div span {
+  border: 1px dashed black;
+}
+
+.border-dashed {
+  border: 1px dashed black;
+}
+
+.border-dotted {
+  border: 1px dotted black;
+}

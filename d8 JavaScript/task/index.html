@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 8</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <section>
+    <h2>Image Slider</h2>
+    <img src="images/1.jpg" alt="image" id="img">
+    <div style="display: block;">
+      <button onclick="prevImage()" class="btn">Prev</button>
+      <button onclick="nextImage()" class="btn">Next</button>
+    </div>
+  </section>
+
+  <br>
+  <br>
+
+  <section>
+    <h2>Change paragraphs styles</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.</p>
+  </section>
+
+  <br>
+  <br>
+
+  <section>
+    <h2>Append to div</h2>
+    <input type="text" id="textSrc">
+    <button onclick="appendText()" class="btn" style="margin-bottom: 10px;">Add</button>
+    <div id="textArea" class="textArea"></div>
+  </section>
+
+  <br>
+  <br>
+
+  <section>
+    <h2>To Do List</h2>
+    <input type="text" id="todoSrc">
+    <button onclick="addTodo()" class="btn" style="margin-bottom: 10px;">Add</button>
+    <table>
+      <thead>
+        <tr>
+          <th>number</th>
+          <th>Task</th>
+        </tr>
+      </thead>
+      <tbody id="todoList">
+      </tbody>
+    </table>
+  </section>
+
+  <br>
+  <br>
+
+  <section>
+    <h2>Change background color</h2>
+    <label for="pink">
+      <input id="pink" onclick="changeColorPink()" type="radio" name="color" value="pink">
+      pink
+    </label>
+
+    <label for="blue">
+      <input id="blue" onclick="changeColorBlue()" type="radio" name="color" value="blue">
+      blue
+    </label>
+
+    <p id="textToChange">Text That Needed to be change </p>
+  </section>
+  <script src="main.js"></script>
+</body>
+
+</html>

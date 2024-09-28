@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 9</title>
+</head>
+
+<body>
+  <section>
+    <h2>Progress</h2>
+    <form action="">
+      <label for="progress">
+        Progress:
+        <input type="number" id="progress" name="progress" min="0" max="100" value="0" onchange="progressBar()">
+      </label>
+      <progress id="progressBar" value="0" max="100" style="display: block; width: 90%; height: 20px;"></progress>
+      <span id="progressBar-value">0%</span>
+    </form>
+  </section>
+
+  <br>
+  <hr>
+  <br>
+
+  <section>
+    <h2>DrawRectangle</h2>
+    <canvas id="canvasRect" width="300" height="150" style="border: 1px solid black;"></canvas>
+  </section>
+
+  <br>
+  <hr>
+  <br>
+
+  <section>
+    <h2>DrawLine</h2>
+    <canvas id="canvasLine" width="300" height="150" style="border: 1px solid black;"></canvas>
+  </section>
+
+  <br>
+  <hr>
+  <br>
+
+  <section>
+    <h2>DrawCircle</h2>
+    <canvas id="canvasCircle" width="300" height="150" style="border: 1px solid black;"></canvas>
+  </section>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
